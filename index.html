@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-Compatible" content="ie=edge">
+        <meta name="description"
+            content="Projeto pessoa, eu me chamo Djenole da Silva, tenho 28 anos, estudante de programação e freelancer nas horas vagas. Utilizo: HTML | CSS | JavaScript | ReactJs ">
+        <title>Djenole da Silva | Front-end</title>
+        <lik rel="icon" type="imagem/png" href=".imagem/code.png" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="styleshee" type="./css/media.css">
+        <script src="https://kit.fontawesome.com/bb5a28c4c3.js" crossorigin="anonymous"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157870898-1"></script>
+        <!--
+            Global Site Tags
+        (gtag.js) - Google Analytics
+        -->
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+    
+            gtag('config', 'UA-157870898-1');
+        </script>
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <a id="linkedin" href="https://www.linkedin.com/in/djenole-da-silva-b42ba6181/" target="_blank"><i 
+                    class="fab fa-linkedin"></i></a>
+                <nav id="menu">
+                    <h3>Developer</h3>
+                    <div id="menu-itens">
+                        <a href="#sobre">Sobre</a></li>
+                        <a href="#tecnologias">Tecnologias</a>
+                        <a href="#contato">Contato</a>
+                    </div>
+                </nav>
+                <div id="perfil">
+                    <img src="./imagem/eu.jpeg" alt="Eu">
+                    <h1>Djenole da Silva</h1>
+                    <p>Front-end Developer</p>
+                </div>
+            </header>
+
+            <!--Minha descrição-->
+            <section id="sobre">
+                <div id="descricao" data-anime="left" class="">
+                    <h2>Olá! Eu sou o<span> Djenole da Silva</span></h2>
+                    <p>Um nerd que ama <span>programação</span> e tecnologias, essa página é dos meus trabalhos para mostrar 
+                        o meu avanço no <span>front-end</span>, em busca de mais conhecimento em <span>JavaScript</span>, <span>HTML</span> e <span>CSS</span>.
+                         Críticas, sugestões, dúvidas e propostas, vocês podem me encontrar nas redes sociais abaixo.</p>
+                    <div id="redes-sociais">
+                        <a href="https://github.com/djenole" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/djenole-da-silva-b42ba6181/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/cafecompolvora/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div id="dados" data-anime="right" class="">
+                    <span><i class="fas fa-map-marker-alt"> Rio de Janeiro</i> - Brasil</span>
+                    <span><i class="fas fa-calendar-alt"> Nascimento:</i> 16/10/1992</span>
+                </div>
+            </section>
+
+            <!--Tecnologias que uso-->
+            <section id="tecnologias">
+                <h1>Tecnologias</h1>
+                <div class="tecs" data-anime>
+                    <div>
+                        <i class="fab fa-html5 vermelho"></i>
+                        <div class="contagem">
+                            <h3>HTML5</h3>
+                            <p>30%</p>
+                        </div>
+                        <div class="caixa-prog">
+                            <div id="progresso" class="progresso"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fab fa-css3-alt azul"></i>
+                        <div class="contagem">
+                            <h3>CSS3</h3>
+                            <p>30%</p>
+                        </div>
+                        <div class="caixa-prog">
+                            <div id="progresso" class="progresso"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fab fa-js-square amarelo"></i>
+                        <div class="contagem">
+                            <h3>JavaScript</h3>
+                            <p>40%</p>
+                        </div>
+                        <div class="caixa-prog">
+                            <div id="progresso" class="boots"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tecs" data-anime>
+                    <div>
+                        <i class="fas fa-laptop cinza"></i>
+                        <div class="contagem">
+                            <h3>Design Responsivo</h3>
+                            <p>50%</p>
+                        </div>
+                        <div class="caixa-prog">
+                            <div id="progresso" class="progresso"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fab fa-git coral"></i>
+                        <div class="contagem">
+                            <h3>Git</h3>
+                            <p>35%</p>
+                        </div>
+                        <div class="caixa-prog">
+                            <div id="progresso" class="git"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fab fa-bootstrap roxo"></i>
+                        <div class="contagem">
+                            <h3>Bootstrap</h3>
+                            <p>30%</p>
+                        </div>
+                        <div class="caixa-prog">
+                            <div class="boots"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Contato-->
+            <section id="contato">
+                <h1>Contato</h1>
+                <div id="sub-contato">
+                    <div class="group">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>Email</span>
+                            <p>djenolereis@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="mailto:djenolereis@gmail.com" method="post" enctype="text/plain" id="enviar">
+                    <div id="form">
+                        <div>
+                            <input type="text" name="nome" placeholder="Nome" required />
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div>
+                        <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <div>
+                        <span id="erro"></span>
+                    </div>
+                    <div>
+                        <button type="submit" value="Enviar" id="btn">Enviar</button>
+                    </div>
+                </form>
+            </section>
+
+            <footer>
+                <div>
+                    <h2>Djenole da Silva</h2>
+                    <p>Todos os direitos reservados © 2021.</p>
+                    <div id="redes-sociais2">
+                        <a href="https://github.com/djenole" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/cafecompolvora/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/djenole-da-silva-b42ba6181/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </footer>
+            <script src="./javascript/main.js"></script>
+        </div>
+    </body>
+
+</html>
